@@ -1,0 +1,42 @@
+# Created by https://www.toptal.com/developers/gitignore/api/executable,data,database
+# Edit at https://www.toptal.com/developers/gitignore?templates=executable,data,database
+
+### Data ###
+*.csv
+*.dat
+*.efx
+*.gbr
+*.key
+*.pps
+*.ppt
+*.pptx
+*.sdf
+*.tax2010
+*.vcf
+*.xml
+
+### Database ###
+*.accdb
+*.db
+*.dbf
+*.mdb
+*.pdb
+*.sqlite3
+
+### Executable ###
+*.app
+*.bat
+*.cgi
+*.com
+*.exe
+*.gadget
+*.jar
+*.pif
+*.vb
+*.wsf
+
+# End of https://www.toptal.com/developers/gitignore/api/executable,data,database
+
+# Initialisation batch script
+!dev_scripts/dev_init.bat
+!dev_scripts/dev_init.sh
