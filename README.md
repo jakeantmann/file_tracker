@@ -9,3 +9,10 @@ for pre-commit)
 - [python](https://www.python.org/downloads/)
 - dvc can be installed by either running `pip install dvc`, or via the installer
   on the [dvc website](https://dvc.org/doc/install)
+
+## What is remaining?
+
+- Set up changelog generation
+- Set up (or find) simple procedure to automatically run `dvc commit data` or
+  similar during staging or pre-commit
+- Turn into cookiecutter
